@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700&family=Josefin+Slab:ital,wght@0,300;0,400;0,600;0,700;1,300;1,600&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
+
+:root {
+    --font-primary: "Baloo Da 2", serif;
+    --font-secundary: "Josefin Slab", serif;
+    --font-action: "Muli", serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+
+    background: #134E5E;
+    background: -webkit-linear-gradient(to right, #71B280, #134E5E);
+    background: linear-gradient(to right, #71B280, #134E5E);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 300px;
+    font-family: "Baloo Da 2", serif;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: black 0 0 15px 3px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    color: #134E5E;
+    font-weight: bold;
+
+}
+
+h2 {
+    font-family: "Muli", serif;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: gray 0 0 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    color: rgb(19, 43, 5);
+    font-weight: 900;
+    font-family: "Muli", serif;
+    background-color: rgba(103, 224, 119, 0.932);
+    border-radius: 5px;
+    border: rgb(170, 231, 170) solid 1px;
+    padding: 8px;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+button:hover {
+    transition: .4s;
+    color: white;
+    background-color: rgb(4, 122, 126);
+}
